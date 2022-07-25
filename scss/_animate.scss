@@ -1,0 +1,18 @@
+//animations
+
+@keyframes ari{
+	0%{background-image: url(../pic/ari.jpg)}
+	25%{background-image: url(../pic/ari2.jpg)}
+	50%{background-image: url(../pic/ari3.jpg)}
+	75%{background-image: url(../pic/ari4.jpg)}
+	100%{background-image: url(../pic/ari5.jpg)}
+}
+
+.main{
+	width: 100vw;
+	height: 60vh;
+	background-size: cover; 
+	animation-name: ari;
+	animation-duration: 10s;
+	animation-iteration-count: infinite;
+}

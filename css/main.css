@@ -1,17 +1,159 @@
-/* Error: expected "}".
- *    ,
- * 34 |             animation-iteration-count: infinite;
- *    |                                                 ^
- *    '
- *   scss\main.scss 34:40  root stylesheet */
-
-body::before {
-  font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
-      "Droid Sans Mono", monospace, monospace;
-  white-space: pre;
-  display: block;
-  padding: 1em;
-  margin-bottom: 1em;
-  border-bottom: 2px solid black;
-  content: 'Error: expected "}".\a    \2577 \a 34 \2502              animation-iteration-count: infinite;\a    \2502                                                  ^\a    \2575 \a   scss\\main.scss 34:40  root stylesheet';
+@import url("https://fonts.googleapis.com/css2?family=Cormorant+SC&display=swap");
+#bg-purple {
+  background-color: rgba(187, 153, 209, 0.6);
 }
+
+.font-f {
+  font-family: "Cormorant SC", serif;
+  font-weight: 600;
+}
+
+.box {
+  margin: 4px 25px;
+  padding: 5px 10px;
+}
+
+.box .table {
+  text-align: right;
+  font-weight: 500;
+  border-color: rgba(168, 136, 181, 0.4);
+  border-width: thick;
+}
+
+tr,
+td {
+  font-size: 0.9em;
+}
+
+.txt-white {
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.txt-center {
+  text-align: center;
+}
+
+.text-deco-none {
+  text-decoration: none;
+}
+
+.bg-cian:hover {
+  background-color: rgba(184, 230, 245, 0.7);
+}
+
+.font-fa {
+  font-family: "Cormorant SC", serif;
+}
+
+h2 {
+  font-size: 1em;
+  color: rgba(255, 255, 255, 0.7);
+}
+
+p {
+  color: rgba(255, 255, 255, 0.7);
+  font-size: 0.7em;
+}
+
+.mar-10 {
+  margin: 20px;
+  padding: 20px 10px;
+}
+
+.footer {
+  background-color: black;
+  font-family: "Cormorant SC", serif;
+}
+
+.footer h3 {
+  font-family: "Cormorant SC", serif;
+  text-align: center;
+  color: white;
+}
+
+.footer ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  padding: 5px 10px;
+}
+
+.footer ul li {
+  list-style: none;
+}
+
+.footer ul li a img {
+  width: 10vw;
+}
+
+@media only screen and (min-width: 768px) {
+  @keyframes ari {
+    0% {
+      background-image: url(../pic/ari.jpg);
+    }
+    25% {
+      background-image: url(../pic/ari2.jpg);
+    }
+    50% {
+      background-image: url(../pic/ari3.jpg);
+    }
+    75% {
+      background-image: url(../pic/ari4.jpg);
+    }
+    100% {
+      background-image: url(../pic/ari5.jpg);
+    }
+  }
+  .main {
+    width: 100vw;
+    height: 60vh;
+    background-size: cover;
+    animation-name: ari;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+  }
+  .col-md-3 {
+    width: 100%;
+  }
+  .table {
+    color: rgba(255, 255, 255, 0.7);
+  }
+  .txt-center {
+    text-align: center;
+  }
+  .txt-justify {
+    justify-content: center;
+  }
+  tr,
+td {
+    font-size: 1.1em;
+  }
+  h2 {
+    font-size: 2rem;
+  }
+  p {
+    font-size: 0.6em;
+  }
+}
+html {
+  background-color: black;
+  font-family: "Cormorant SC", serif;
+}
+
+.txt-black {
+  color: black;
+}
+
+.txt-white {
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.bg-black {
+  background-color: black;
+}
+
+.mainfont {
+  font-family: "Cormorant SC", serif;
+}
+
+/*# sourceMappingURL=main.css.map */

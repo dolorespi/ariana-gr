@@ -1,0 +1,46 @@
+//media queries
+
+@media only screen and (min-width: 768px){
+		@keyframes ari{
+		0%{background-image: url(../pic/ari.jpg)}
+		25%{background-image: url(../pic/ari2.jpg)}
+		50%{background-image: url(../pic/ari3.jpg)}
+		75%{background-image: url(../pic/ari4.jpg)}
+		100%{background-image: url(../pic/ari5.jpg)}
+	}
+
+	.main{
+		width: 100vw;
+		height: 60vh;
+		background-size: cover; 
+		animation-name: ari;
+		animation-duration: 10s;
+		animation-iteration-count: infinite;
+	}
+
+	.col-md-3{
+		width: 100%;
+	}
+
+	.table{
+		color: rgba(255, 255, 255, 0.7);
+	}
+	.txt-center{
+		text-align: center;
+	}
+	.txt-justify{
+		justify-content: center;
+	}
+	tr,
+	td{
+		font-size: 1.1em;
+	}
+	h2{
+		font-size: 2rem;
+	}
+	p{
+		font-size: 0.6em;
+	}
+
+}
+	
