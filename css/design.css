@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+SC&family=Roboto+Slab:wght@300&family=Roboto:wght@300&display=swap');
+html{
+	font-family: 'Cormorant SC', serif;
+	font-size: 1.2em;
+}
+
+.font-f{
+	font-family: 'Cormorant SC', serif;
+	font-size: 1em;
+	font-weight: 600;
+}
+
+.bg-purple{
+	background-color: rgba(196, 155, 187, 0.5);
+}
