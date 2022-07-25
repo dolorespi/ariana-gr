@@ -3,7 +3,32 @@
 @import "_navBar";
 @import "_fonts";
 @import "_bio";
+@import "_movie";
 @import "_awards";
 @import "_relat";
 @import "_disco";
 @import "_footer";
+
+html{
+	background-color: black;
+	font-family: "Cormorant SC", serif;
+}
+
+.w-h-100{
+	width: 100vw;
+}
+
+@keyframes headerAnimate{
+			0%{background-image: url(../img/modelos3.JPG)}
+			25%{background-image: url(../img/modelos4.png)}
+			50%{background-image: url(../img/modelos5.jpg)}
+			75%{background-image: url(../img/modelos6.png)}
+			100%{background-image: url(../img/modelos7.png)}
+		}
+
+		.header{
+			height: 20rem;
+			background-size: cover;
+			animation-name: headerAnimate;
+			animation-duration: 10s;
+			animation-iteration-count: infinite;

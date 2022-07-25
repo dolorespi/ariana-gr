@@ -1,10 +1,17 @@
-@import url("https://fonts.googleapis.com/css2?family=Cormorant+SC&display=swap");
-.bg-lightpurple {
-  background-color: rgba(168, 136, 181, 0.5);
-}
+/* Error: expected "}".
+ *    ,
+ * 34 |             animation-iteration-count: infinite;
+ *    |                                                 ^
+ *    '
+ *   scss\main.scss 34:40  root stylesheet */
 
-.font-f {
-  font-family: "Cormorant SC", serif;
+body::before {
+  font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
+      "Droid Sans Mono", monospace, monospace;
+  white-space: pre;
+  display: block;
+  padding: 1em;
+  margin-bottom: 1em;
+  border-bottom: 2px solid black;
+  content: 'Error: expected "}".\a    \2577 \a 34 \2502              animation-iteration-count: infinite;\a    \2502                                                  ^\a    \2575 \a   scss\\main.scss 34:40  root stylesheet';
 }
-
-/*# sourceMappingURL=main.css.map */

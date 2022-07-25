@@ -1,1 +1,27 @@
 //footer
+
+.footer{
+	background-color: black;
+	font-family: "Cormorant SC", serif;
+}
+
+.footer h3{
+	font-family: 'Cormorant SC', serif;
+	text-align: center;
+	color: white;
+}
+
+.footer ul{
+	list-style: none;
+	display: flex;
+	justify-content: center;
+	padding: 5px 10px
+}
+
+.footer ul li{
+	list-style: none;
+}
+
+.footer ul li a img{
+	width: 10vw;
+}
