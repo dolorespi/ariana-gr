@@ -1,8 +1,15 @@
 //fonts
 
-@import url('https://fonts.googleapis.com/css2?family=Cormorant+SC&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+SC&family=Roboto+Mono:wght@300&display=swap');
+
 
 .font-f{
 	font-family: 'Cormorant SC', serif;
-	font-weight: 600
+	font-weight: 600;
+}
+
+.font-r{
+	font-family: 'Roboto Mono', monospace;
+	font-weight: 600;
+	font-size: 0.5em;
 }

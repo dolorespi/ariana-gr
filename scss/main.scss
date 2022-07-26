@@ -4,7 +4,7 @@
 @import "_fonts";
 @import "_bio";
 @import "_movie";
-@import "_awards";
+@import "_rem";
 @import "_relat";
 @import "_disco";
 @import "_footer";
@@ -29,3 +29,12 @@ html{
 	font-family: "Cormorant SC", serif;
 }
 
+.direc-right{
+	text-align: right;
+	display: flex;
+	justify-content: flex-end;
+	justify-items: center;
+}
+.bg-pink{
+	background-color: #e9a8a2;
+}

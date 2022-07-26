@@ -1,0 +1,27 @@
+//rem
+
+ul{
+	margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+}
+
+#scroller .horizontal{
+	display: flex;
+	overflow-y: hidden;
+    overflow-x: scroll;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    justify-width: auto;
+    padding-bottom: 10px;
+}
+
+.bg-blue{
+	background-color: #7fa3ac;
+}
+
+.bg-purple-pink{
+	background-color: #b4446c;
+}
