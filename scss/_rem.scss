@@ -13,15 +13,15 @@ ul{
 	overflow-y: hidden;
     overflow-x: scroll;
     flex-wrap: nowrap;
-    justify-content: space-around;
+    justify-content: space-evenly;
     justify-width: auto;
     padding-bottom: 10px;
 }
 
 .bg-blue{
-	background-color: #7fa3ac;
+	background-color:map-get($map:$map, two);
 }
 
 .bg-purple-pink{
-	background-color: #b4446c;
+	background-color: map-get($map:$map, three);
 }

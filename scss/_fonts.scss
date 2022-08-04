@@ -13,3 +13,7 @@
 	font-weight: 600;
 	font-size: 0.5em;
 }
+
+$fontMain: 'Cormorant SC', serif;;
+$color: map-get($map:$map,four);
+$fontSize: 1em;

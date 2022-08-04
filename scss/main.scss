@@ -1,40 +1,52 @@
-//imports
-@import "_vars";
-@import "_navBar";
-@import "_fonts";
+@import "_animate";
 @import "_bio";
-@import "_movie";
-@import "_rem";
-@import "_relat";
 @import "_disco";
-@import "_footer";
+@import "_fonts";
 @import "_media";
+@import "_movie";
+@import "_navbar";
+@import "_rem";
 
 
-html{
-	background-color: black;
-	font-family: "Cormorant SC", serif;
-}
+$map:(
+	one: rgb(213, 177, 240),
+	two: #7fa3ac,
+	three: #b4446c,
+	four: rgba(255, 255, 255, 0.7),
+	five: rgba(168, 136, 181, 0.4)
+);
 
 .txt-black{
 	color: black;
 }
 .txt-white{
-	color: rgba(255, 255, 255, 0.7);
-}
-.bg-black{
-	background-color: black;
-}
-.mainfont{
-	font-family: "Cormorant SC", serif;
+	color:rgb();
 }
 
-.direc-right{
-	text-align: right;
+@mixin texto($fontSize, $color, $align){
+	font-size: $fontSize;
+	color:$color;
+	font-family: $fontMain;
+	padding: 10px 20px;
+	text-align: center;
+}
+
+.btn-more{
+	background: linear-gradient(to top, violet, deeppink);
+	width: 100px;
+	height: 30px;
+	border:none;
 	display: flex;
-	justify-content: flex-end;
-	justify-items: center;
+	justify-content: center;
+	align-items: center;
+	&:hover{
+		color: black;
+		cursor: pointer;
+	}
 }
-.bg-pink{
-	background-color: #e9a8a2;
+
+.btn-rounded{
+	@extend .btn-more;
+	border-radius: 6px;
 }
+
