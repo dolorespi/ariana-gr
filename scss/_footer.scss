@@ -13,8 +13,10 @@
 
 .footer ul{
 	list-style: none;
+	list-decoration: none;
 	display: flex;
 	justify-content: center;
+	text-align: center;
 	padding: 5px 10px
 }
 
@@ -24,4 +26,5 @@
 
 .footer ul li a img{
 	width: 10vw;
+	text-align: center;
 }

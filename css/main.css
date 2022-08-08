@@ -1,18 +1,217 @@
-/* Error: Positional arguments must come before keyword arguments.
- *    ,
- * 20 |     color: map-get($map:$map,four);
- *    |                              ^^^^
- *    '
- *   scss\_bio.scss 20:27  @import
- *   scss\main.scss 2:9    root stylesheet */
-
-body::before {
-  font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
-      "Droid Sans Mono", monospace, monospace;
-  white-space: pre;
-  display: block;
-  padding: 1em;
-  margin-bottom: 1em;
-  border-bottom: 2px solid black;
-  content: "Error: Positional arguments must come before keyword arguments.\a    \2577 \a 20 \2502      color: map-get($map:$map,four);\d\a    \2502                               ^^^^\a    \2575 \a   scss\\_bio.scss 20:27  @import\a   scss\\main.scss 2:9    root stylesheet";
+@import url("https://fonts.googleapis.com/css2?family=Cormorant+SC&family=Roboto+Mono:wght@300&display=swap");
+@keyframes ari {
+  0% {
+    background-image: url(../pic/ari.jpg);
+  }
+  25% {
+    background-image: url(../pic/ari2.jpg);
+  }
+  50% {
+    background-image: url(../pic/ari3.jpg);
+  }
+  75% {
+    background-image: url(../pic/ari4.jpg);
+  }
+  100% {
+    background-image: url(../pic/ari5.jpg);
+  }
 }
+.box {
+  margin: 4px 25px;
+  padding: 5px 10px;
+}
+
+.box .table {
+  text-align: right;
+  font-weight: 500;
+  border-color: rgba(168, 136, 181, 0.4);
+  border-width: thick;
+}
+
+tr,
+td {
+  font-size: 0.9em;
+}
+
+.txt-white {
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.txt-center {
+  text-align: center;
+}
+
+.text-deco-none {
+  text-decoration: none;
+}
+
+.bg-cian:hover {
+  background-color: rgba(255, 255, 255, 0.7);
+}
+
+.font-fa {
+  font-family: "Cormorant SC", serif;
+}
+
+h2 {
+  font-size: 1em;
+  color: rgba(255, 255, 255, 0.7);
+}
+
+p {
+  color: rgba(255, 255, 255, 0.7);
+  font-size: 0.7em;
+}
+
+.footer {
+  background-color: black;
+  font-family: "Cormorant SC", serif;
+}
+
+.footer h3 {
+  font-family: "Cormorant SC", serif;
+  text-align: center;
+  color: white;
+}
+
+.footer ul {
+  list-style: none;
+  list-decoration: none;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  padding: 5px 10px;
+}
+
+.footer ul li {
+  list-style: none;
+}
+
+.footer ul li a img {
+  width: 10vw;
+  text-align: center;
+}
+
+.txt-black p {
+  color: black;
+  font-size: 0.7em;
+}
+
+.pad-top-10 {
+  padding-top: 10px;
+  background-color: rgb(213, 177, 240);
+}
+
+.center {
+  text-align: center;
+  margin-bottom: 25px;
+}
+
+.font-f {
+  font-family: "Cormorant SC", serif;
+  font-weight: 600;
+}
+
+.font-r {
+  font-family: "Roboto Mono", monospace;
+  font-weight: 600;
+  font-size: 0.5em;
+}
+
+@media only screen and (min-width: 768px) {
+  @keyframes ari {
+    0% {
+      background-image: url(../pic/ari.jpg);
+    }
+    25% {
+      background-image: url(../pic/ari2.jpg);
+    }
+    50% {
+      background-image: url(../pic/ari3.jpg);
+    }
+    75% {
+      background-image: url(../pic/ari4.jpg);
+    }
+    100% {
+      background-image: url(../pic/ari5.jpg);
+    }
+  }
+  .main {
+    width: 100vw;
+    height: 60vh;
+    background-size: cover;
+    animation-name: ari;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+  }
+  .col-md-3 {
+    width: 100%;
+  }
+  .table {
+    color: rgba(255, 255, 255, 0.7);
+  }
+  .txt-center {
+    text-align: center;
+  }
+  .txt-justify {
+    justify-content: center;
+  }
+  tr,
+td {
+    font-size: 1.1em;
+  }
+  h2 {
+    font-size: 2rem;
+  }
+  p {
+    font-size: 0.6em;
+  }
+  .font-r {
+    font-weight: 400;
+    font-size: 1em;
+  }
+}
+.mar-10 {
+  margin: 20px;
+  padding: 20px 10px;
+}
+
+#bg-purple {
+  background-color: rgb(213, 177, 240);
+}
+
+ul {
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  padding-inline-start: 40px;
+}
+
+#scroller .horizontal {
+  display: flex;
+  overflow-y: hidden;
+  overflow-x: scroll;
+  flex-wrap: nowrap;
+  justify-content: space-evenly;
+  justify-width: auto;
+  padding-bottom: 10px;
+}
+
+.bg-blue {
+  background-color: #7fa3ac;
+}
+
+.bg-purple-pink {
+  background-color: #b4446c;
+}
+
+.txt-black {
+  color: black;
+}
+
+.txt-white {
+  color: rgba(255, 255, 255, 0.7);
+}
+
+/*# sourceMappingURL=main.css.map */

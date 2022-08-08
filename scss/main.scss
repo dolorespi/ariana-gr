@@ -1,5 +1,6 @@
 @import "_animate";
 @import "_bio";
+@import "_footer";
 @import "_disco";
 @import "_fonts";
 @import "_media";
@@ -8,45 +9,14 @@
 @import "_rem";
 
 
-$map:(
-	one: rgb(213, 177, 240),
-	two: #7fa3ac,
-	three: #b4446c,
-	four: rgba(255, 255, 255, 0.7),
-	five: rgba(168, 136, 181, 0.4)
-);
-
 .txt-black{
 	color: black;
 }
 .txt-white{
-	color:rgb();
+	color:rgba(255, 255, 255, 0.7);
 }
 
-@mixin texto($fontSize, $color, $align){
-	font-size: $fontSize;
-	color:$color;
-	font-family: $fontMain;
-	padding: 10px 20px;
-	text-align: center;
-}
 
-.btn-more{
-	background: linear-gradient(to top, violet, deeppink);
-	width: 100px;
-	height: 30px;
-	border:none;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	&:hover{
-		color: black;
-		cursor: pointer;
-	}
-}
 
-.btn-rounded{
-	@extend .btn-more;
-	border-radius: 6px;
-}
+
 

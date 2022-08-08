@@ -8,7 +8,7 @@
 .box .table{
 	text-align: right;
 	font-weight: 500;
-	border-color: map-get($map, five);
+	border-color: rgba(168, 136, 181, 0.4);
 	border-width: thick;
 }
 tr,
@@ -17,7 +17,7 @@ td{
 }
 
 .txt-white{
-	color: map-get($map:$map,four);
+	color: rgba(255, 255, 255, 0.7);
 }
 .txt-center{
 	text-align: center;
@@ -28,7 +28,7 @@ td{
 }
 
 .bg-cian:hover{
-	background-color: map-get($map:$map,four);
+	background-color:  rgba(255, 255, 255, 0.7);
 }
 
 
@@ -38,10 +38,10 @@ td{
 
 h2{
 	font-size: 1em;
-	color: map-get($map:$map,four);
+	color:  rgba(255, 255, 255, 0.7);
 }
 
 p{
-	color: map-get($map:$map, four);
+	color: rgba(255, 255, 255, 0.7);
 	font-size: 0.7em;
 }
